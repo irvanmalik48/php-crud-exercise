@@ -1,11 +1,14 @@
 <?php include("config.php"); ?>
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tampung Aspirasi | Teknik Informatika UNSRI</title>
+    <link rel="stylesheet" href="styles/bootstrap.css">
 </head>
-
 <body>
     <header>
         <h3>Mahasiswa yang telah beraspirasi</h3>
@@ -57,5 +60,5 @@
 
     <p>Total: <?php echo mysqli_num_rows($query) ?></p>
 
-    </body>
+</body>
 </html>
