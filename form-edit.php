@@ -26,6 +26,8 @@ if( mysqli_num_rows($query) < 1 ){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulir Edit Aspirasi | Teknik Informatika UNSRI</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/bootstrap.css">
 </head>
 <body>
     <header>
