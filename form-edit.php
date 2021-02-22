@@ -53,6 +53,10 @@ if( mysqli_num_rows($query) < 1 ){
             <textarea name="saran"><?php echo $peserta['saran'] ?></textarea>
         </p>
         <p>
+            <label for="harapan">Saran: </label>
+            <textarea name="harapan"><?php echo $peserta['harapan'] ?></textarea>
+        </p>
+        <p>
             <input type="submit" value="Simpan" name="simpan" />
         </p>
         </fieldset>

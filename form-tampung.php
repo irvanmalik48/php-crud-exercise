@@ -33,6 +33,10 @@
             <textarea name="saran"></textarea>
         </p>
         <p>
+            <label for="harapan">Harapan: </label>
+            <textarea name="harapan"></textarea>
+        </p>
+        <p>
             <input type="submit" value="Tampung" name="tampung" />
         </p>
 

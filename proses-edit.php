@@ -8,7 +8,8 @@ if(isset($_POST['simpan'])){
     $nim = $_POST['nim'];
     $kritik = $_POST['kritik'];
     $saran = $_POST['saran'];
-    $sql = "UPDATE data_aspirasi SET nama='$nama', nim='$nim', kritik='$kritik', saran='$saran' WHERE nomor=$nomor";
+    $harapan = $_POST['harapan'];
+    $sql = "UPDATE data_aspirasi SET nama='$nama', nim='$nim', kritik='$kritik', saran='$saran', harapan='$harapan' WHERE nomor=$nomor";
     $query = mysqli_query($db, $sql);
 
     if( $query ) {

@@ -1,7 +1,7 @@
 <?php
 $server = "localhost";
-$user = "irvanmalik48";
-$password = "irvann48_";
+$user = "irvanmalik48"; // change accordingly
+$password = "irvann48_"; // change accordingly
 $nama_database = "tampung_aspirasi";
 
 $db = mysqli_connect($server, $user, $password, $nama_database);

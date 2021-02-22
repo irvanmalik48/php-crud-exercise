@@ -1,1 +1,26 @@
-/* wip */
+body,
+header {
+    background-color: #121212;
+}
+
+p,
+h1,
+h3,
+h4,
+li,
+ul,
+a {
+    color: white;
+}
+
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 0.05rem 1rem;
+    color: white;
+}

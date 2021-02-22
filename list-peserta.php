@@ -23,12 +23,12 @@
     <table border="1">
     <thead>
         <tr>
-            <th>No</th>
-            <th>Nama</th>
-            <th>NIM</th>
-            <th>Kritik</th>
-            <th>Saran</th>
-            <th>Tindakan</th>
+            <th><p>Nama</p></th>
+            <th><p>NIM</p></th>
+            <th><p>Kritik</p></th>
+            <th><p>Saran</p></th>
+            <th><p>Harapan</p></th>
+            <th><p>Tindakan</p></th>
         </tr>
     </thead>
     <tbody>
@@ -40,16 +40,16 @@
         while($peserta = mysqli_fetch_array($query)){
             echo "<tr>";
 
-            echo "<td>".$peserta['nomor']."</td>";
-            echo "<td>".$peserta['nama']."</td>";
-            echo "<td>".$peserta['nim']."</td>";
-            echo "<td>".$peserta['kritik']."</td>";
-            echo "<td>".$peserta['saran']."</td>";
+            echo "<td><p>".$peserta['nama']."</p></td>";
+            echo "<td><p>".$peserta['nim']."</p></td>";
+            echo "<td><p>".$peserta['kritik']."</p></td>";
+            echo "<td><p>".$peserta['saran']."</p></td>";
+            echo "<td><p>".$peserta['harapan']."</p></td>";
 
-            echo "<td>";
+            echo "<td><p>";
             echo "<a href='form-edit.php?nomor=".$peserta['nomor']."'>Edit</a> | ";
             echo "<a href='hapus.php?nomor=".$peserta['nomor']."'>Hapus</a>";
-            echo "</td>";
+            echo "</td></p>";
 
             echo "</tr>";
         }

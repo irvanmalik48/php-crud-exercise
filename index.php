@@ -17,7 +17,7 @@
     <nav>
         <ul>
             <li><a href="form-tampung.php">Menuju Form</a></li>
-            <li><a href="list-peserta.php">-</a></li>
+            <li><a href="list-peserta.php">Edit Tanggapan</a></li>
         </ul>
     </nav>
     <?php if(isset($_GET['status'])): ?>

@@ -8,8 +8,9 @@ if(isset($_POST['tampung'])){
     $nim = $_POST['nim'];
     $kritik = $_POST['kritik'];
     $saran = $_POST['saran'];
+    $harapan = $_POST['harapan'];
 
-    $sql = "INSERT INTO data_aspirasi (nama, nim, kritik, saran) VALUE ('$nama', '$nim', '$kritik', '$saran')";
+    $sql = "INSERT INTO data_aspirasi (nama, nim, kritik, saran) VALUE ('$nama', '$nim', '$kritik', '$saran', '$harapan')";
     $query = mysqli_query($db, $sql);
 
     if( $query ) {
